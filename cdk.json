@@ -18,17 +18,15 @@
       "accounts": {
         "dev": {
           "account": "039xxxxxxxxx",
-          "region": "eu-west-1",
-          "rds_allocatedstorage": "200"
+          "region": "eu-west-1"
         },
         "tooling": {
           "account": "029xxxxxxxxx",
-          "region": "eu-west-1",
-          "rds_allocatedstorage": "200"
+          "region": "eu-west-1"
         }
       },
       "tenant_name": "generic",
-      "project_name": "sim-pip",
+      "project_name": "pip-modules",
       "development_branch": "main"
     }
   }

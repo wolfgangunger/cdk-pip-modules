@@ -48,14 +48,14 @@ python setup.py check
 python setup.py bdist_wheel
 
 
-python -m pip install dist/wunger_cdk-0.0.1-py3-none-any.whl
+python -m pip install dist/wunger_cdk-0.0.2-py3-none-any.whl
 install same version new
-python -m pip install dist/wunger_cdk-0.0.1-py3-none-any.whl --force
+python -m pip install dist/wunger_cdk-0.0.2-py3-none-any.whl --force
 
 
 ## upload
 
-twine upload -r pypi dist/wunger_cdk-0.0.1-py3-none-any.whl
+twine upload -r pypi dist/wunger_cdk-0.0.2-py3-none-any.whl
 
 ## use in client project
 setup requirements.txt: 
