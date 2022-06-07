@@ -17,6 +17,6 @@ stage_account = "123456789012"
 stack = WrapperEcrStack(app, "MyECRStack", stage_account, repos)
 
 ## once you have build and import the pip module you can comment out this code, which shows the usage of the pip module
-client_stack = ClientEcrStack(app, "MyClientECRStack", stage_account, repos)
+# client_stack = ClientEcrStack(app, "MyClientECRStack", stage_account, repos)
 
 app.synth()

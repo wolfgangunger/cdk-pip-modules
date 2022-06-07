@@ -59,7 +59,7 @@ twine upload -r pypi dist/wunger_cdk-0.0.2-py3-none-any.whl
 
 ## use in client project
 setup requirements.txt: 
-wunger-cdk==0.0.1
+wunger-cdk==0.0.2
 
 pip install -r requirements.txt 
 or explicit :
