@@ -34,13 +34,13 @@ cdk_pip_modules
 ├── app.py ( main python file, entry point )    
 └── setup.py    
 
-please create your constructs in the folder wunger_cdk_constructs or your own folder ( my_cdk_constructs)
-adapt setup.py 
-adapt the app.py 
-build the module and install locally
-upload to remote repo
-use the module by cdk stacks in usage folder, see example
-
+-please create your constructs in the folder wunger_cdk_constructs or your own folder ( my_cdk_constructs)  
+-adapt setup.py   
+-adapt the app.py   
+-build the module and install locally  
+-upload to remote repo  
+-use the module by cdk stacks in usage folder, see example  
+  
 
 ## check
 python setup.py check
